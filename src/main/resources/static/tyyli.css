@@ -1,0 +1,70 @@
+body {background-color:rgb(255,165,0);
+    border-radius:20px;
+    font-size: 0.5cm;
+    font-family:Segoe UI, Arial, sans-serif;
+	
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:white;
+}
+
+section {background-color:rgb(255,255,255);
+padding:10px;
+    border-radius:8px;
+border:solid 20px black;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    background-color: gray;
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+#mukautuva {
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h6 {
+	font-size: 0.7cm;
+	font-family:Segoe UI, Arial, sans-serif;
+}
+
+@media only screen and (max-width:600px){
+    
+    header {display:flex;
+    flex-direction: column-reverse;}
+}
+
+
+@media only screen and (min-width: 600px) {
+    .osiot {display:flex}
+    .palsta {flex:1;margin-right: 5px;}
+	
+
+
+}
