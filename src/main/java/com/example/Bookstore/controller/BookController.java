@@ -67,12 +67,12 @@ public class BookController {
         return "redirect:booklist";
     } 
 	
-	@RequestMapping(value = "/edit/{id}")
+	/*@RequestMapping(value = "/edit/{id}")
 	public String addBook(@PathVariable("id") Long bookId, Model model){
 		model.addAttribute("book", repository.findOne(bookId));
 		model.addAttribute("categories", crepository.findAll());
 		return "editbook";
-}
+}*/
 	
 	/*@RequestMapping(value = "/saveid/{id}", method = RequestMethod.POST)
 	public ModelAndView showForm(@PathVariable("id") Long id) {
